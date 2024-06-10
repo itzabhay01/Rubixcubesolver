@@ -67,6 +67,12 @@ build CMakeFiles/Rubixcubesolver.dir/RubiksCube3Darray.cpp.obj: CXX_COMPILER__Ru
   OBJECT_DIR = CMakeFiles\Rubixcubesolver.dir
   OBJECT_FILE_DIR = CMakeFiles\Rubixcubesolver.dir
 
+build CMakeFiles/Rubixcubesolver.dir/RubiksCube1Darray.cpp.obj: CXX_COMPILER__Rubixcubesolver_unscanned_Debug E$:/Rubixcubesolver/RubiksCube1Darray.cpp || cmake_object_order_depends_target_Rubixcubesolver
+  DEP_FILE = CMakeFiles\Rubixcubesolver.dir\RubiksCube1Darray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Rubixcubesolver.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubixcubesolver.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Rubixcubesolver
@@ -75,7 +81,7 @@ build CMakeFiles/Rubixcubesolver.dir/RubiksCube3Darray.cpp.obj: CXX_COMPILER__Ru
 #############################################
 # Link the executable Rubixcubesolver.exe
 
-build Rubixcubesolver.exe: CXX_EXECUTABLE_LINKER__Rubixcubesolver_Debug CMakeFiles/Rubixcubesolver.dir/main.cpp.obj CMakeFiles/Rubixcubesolver.dir/RubiksCube.cpp.obj CMakeFiles/Rubixcubesolver.dir/RubiksCube3Darray.cpp.obj
+build Rubixcubesolver.exe: CXX_EXECUTABLE_LINKER__Rubixcubesolver_Debug CMakeFiles/Rubixcubesolver.dir/main.cpp.obj CMakeFiles/Rubixcubesolver.dir/RubiksCube.cpp.obj CMakeFiles/Rubixcubesolver.dir/RubiksCube3Darray.cpp.obj CMakeFiles/Rubixcubesolver.dir/RubiksCube1Darray.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Rubixcubesolver.dir
