@@ -4,8 +4,12 @@ project(Rubixcubesolver)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Rubixcubesolver main.cpp
-        RubiksCube.cpp
-        RubiksCube.h
-        RubiksCube3Darray.cpp
-        RubiksCube1Darray.cpp
+        Model/RubiksCube.cpp
+        Model/RubiksCube.h
+        Model/RubiksCube3dArray.cpp
+        Model/RubiksCube1dArray.cpp
+        Solver/BFSSolver.h
+        Solver/DFSSolver.h
+        Solver/IDDFSSolver.h
+
 )
